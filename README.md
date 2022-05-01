@@ -24,7 +24,7 @@ Data is gathered from NYU Langone. The EHR data consists of 296 patients having 
 - models_classification.ipynb: This file contains all the models for classification task.
 - Initial_preprocessing_reg.ipynb: This file contains initial preprocessing for the EHR data (removing some unused columns, removing duplicate values etc)
 - method-1_reg.ipynb: This file deals with the unknown values by removing the datapoints which has "Unknown" label in the target variable.
-- method-1_reg.ipyng: This file deals with the null values in the target variable by imputing them with the training set while not polluting the test set.
+- method-2_reg.ipynb: This file deals with the null values in the target variable by imputing them with the training set while not polluting the test set.
 - models_reg.ipynb: This file contains all the models for regression task.
 - autogluon.ipynb: This file contains the results of the classification based models produced by the Autogluon library.
 - autogluon_reg.ipynb: This file contains the results of the regression based models produced by the Autogluon library.
