@@ -5,7 +5,7 @@ data is collected in the form of EHR. In order to bridge the gap between the dat
 out how patients would react to a particular drug called TNF Inhibitor which is the most important drug used for treating patients having Rheumatoid Arthritis.
 
 ### Data
-Data is gathered from NYU Langone. The EHR data consists of 296 patients having 101 features. 
+Data is gathered from CORRONA database. The EHR data consists of 296 patients having 101 features. 
 
 ### Libraries required
 - sklearn == 1.0
