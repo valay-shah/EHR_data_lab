@@ -19,9 +19,9 @@ Data is gathered from CORRONA database. The EHR data consists of 296 patients ha
 
 ### Code File Description
 - Initial_preprocessing_class.ipynb: This file contains initial preprocessing for the classification task of EHR data (removing some unused columns, removing duplicate values etc)
-- method_1_classification.ipynb: This file deals with the unknown values by removing the datapoints which has "Unknown" label in the target variable.
-- method_2_classification.ipyng: This file deals with the "Unknown" label in the target variable by keeping them as the 4th category.
-- method_3_classification.ipynb: This file deals with the "Unknown" label in the target variable by imputing them with the training set while not polluting the test set.
+- method_1_class.ipynb: This file deals with the unknown values by removing the datapoints which has "Unknown" label in the target variable.
+- method_2_class.ipyng: This file deals with the "Unknown" label in the target variable by keeping them as the 4th category.
+- method_3_class.ipynb: This file deals with the "Unknown" label in the target variable by imputing them with the training set while not polluting the test set.
 - models_class.ipynb: This file contains all the models for classification task.
 - Initial_preprocessing_reg.ipynb: This file contains initial preprocessing for the regression task of EHR data (removing some unused columns, removing duplicate values etc)
 - method_1_reg.ipynb: This file deals with the unknown values by removing the datapoints which has "Unknown" label in the target variable.
