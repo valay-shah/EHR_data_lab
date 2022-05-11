@@ -15,17 +15,19 @@ Data is gathered from NYU Langone. The EHR data consists of 296 patients having 
 - matplotlib == 3.3.2
 - imblearn == 0.8.0
 - impyute == 0.0.8
+- seaborn == 0.11.0
 
 ### Code File Description
-- Initial_preprocessing.ipynb: This file contains initial preprocessing for the EHR data (removing some unused columns, removing duplicate values etc)
-- method-1_classification.ipynb: This file deals with the unknown values by removing the datapoints which has "Unknown" label in the target variable.
-- method-2_classification.ipyng: This file deals with the "Unknown" label in the target variable by keeping them as the 4th category.
-- method-3_classification.ipynb: This file deals with the "Unknown" label in the target variable by imputing them with the training set while not polluting the test set.
-- models_classification.ipynb: This file contains all the models for classification task.
-- Initial_preprocessing_reg.ipynb: This file contains initial preprocessing for the EHR data (removing some unused columns, removing duplicate values etc)
-- method-1_reg.ipynb: This file deals with the unknown values by removing the datapoints which has "Unknown" label in the target variable.
-- method-2_reg.ipynb: This file deals with the null values in the target variable by imputing them with the training set while not polluting the test set.
+- Initial_preprocessing_class.ipynb: This file contains initial preprocessing for the classification task of EHR data (removing some unused columns, removing duplicate values etc)
+- method_1_classification.ipynb: This file deals with the unknown values by removing the datapoints which has "Unknown" label in the target variable.
+- method_2_classification.ipyng: This file deals with the "Unknown" label in the target variable by keeping them as the 4th category.
+- method_3_classification.ipynb: This file deals with the "Unknown" label in the target variable by imputing them with the training set while not polluting the test set.
+- models_class.ipynb: This file contains all the models for classification task.
+- Initial_preprocessing_reg.ipynb: This file contains initial preprocessing for the regression task of EHR data (removing some unused columns, removing duplicate values etc)
+- method_1_reg.ipynb: This file deals with the unknown values by removing the datapoints which has "Unknown" label in the target variable.
+- method_2_reg.ipynb: This file deals with the null values in the target variable by imputing them with the training set while not polluting the test set.
 - models_reg.ipynb: This file contains all the models for regression task.
-- autogluon.ipynb: This file contains the results of the classification based models produced by the Autogluon library.
+- autogluon_class.ipynb: This file contains the results of the classification based models produced by the Autogluon library.
 - autogluon_reg.ipynb: This file contains the results of the regression based models produced by the Autogluon library.
 - models_for_hyperparameters.ipynb: This file contains different models that I tried in order to find the best hyperparameters for the models. 
+- two_step_regression.ipynb: This file contains all the preprocessing steps until the regression model prediction and then converting the regression values to classification based labels.
